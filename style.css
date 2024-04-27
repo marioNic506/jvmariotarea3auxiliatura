@@ -1,0 +1,203 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/cuerpo.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.post-texto {
+    display: flex;
+    align-items: center;
+}
+
+.post-texto h3 {
+    margin-right: 400px; 
+    margin-left: 200px;
+    color: white;
+}
+.enanitos{
+    color: rgb(37, 35, 35);
+}
+
+
+header {
+    background-color: #D53032;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hero-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.banda {
+    padding: 50px;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+.boton-musica, .boton-rock {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D53032;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-musica:hover, .boton-rock:hover {
+    background-color:whitesmoke;
+    color: black;
+}
+
+.recuadro-grande {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid #333;
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 50px; 
+    text-align: center; 
+    line-height: 50px; 
+    margin: 20px; 
+    border-color:whitesmoke; 
+}
+
+.recuadro-grande span {
+    margin: 5px;
+    font-family: 'Gothic', sans-serif;
+}
+
+.recuadros {
+    padding: 50px;
+}
+
+.recuadro {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recuadro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.categorias {
+    padding: 50px;
+    text-align: center;
+}
+
+.categoria {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #252323;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.categoria:hover {
+    background-color: #333;
+}
+
+.newsletter {
+    padding: 50px;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button[type="submit"] {
+    width: 120px;
+    background-color: #f5f0f0;
+    color: #030303;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button[type="submit"]:hover {
+    background-color: #f1ecec;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
